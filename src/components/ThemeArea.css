@@ -1,0 +1,28 @@
+.themesArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: -5px;
+  align-self: stretch;
+}
+
+.themes {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 6px;
+  align-self: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.themesInstructionText {
+  color: var(--white-64, rgba(255, 255, 255, 0.64));
+  font-family: SF Pro Rounded;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%; /* 20.7px */
+}
+

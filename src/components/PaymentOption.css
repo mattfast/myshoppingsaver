@@ -1,0 +1,17 @@
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: min(560px, 80vw);
+}
+
+.paymentOption {
+  display: flex;
+  width: min(560px, 80vw);
+  padding: 15px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  justify-content: space-between;
+  /*background: var(--white, #FFF);*/
+}

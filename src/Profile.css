@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Rubik One';
+  src: url('./fonts/RubikOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Rounded';
+  src: url('./fonts/SF-Pro-Rounded.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.profileContainer {
+  display: flex;
+  height: 100dvh;
+  width: 100vw;
+  /*padding-top: 80px;*/
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #181818;
+}
+
+.profileContentContainer {
+  margin-top: 80px;
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+  align-self: stretch;
+  overflow: scroll;
+}
+
+.changeOrSaveButton {
+  display: flex;
+  /*height: 48px;*/
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 1000px;
+  background: var(--white-16, rgba(255, 255, 255, 0.16));
+  cursor: pointer;
+
+  color: #FFF;
+  text-align: center;
+  font-family: Rubik One;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 24.7px */
+  letter-spacing: -0.095px;
+  text-transform: uppercase;
+}
+
+.logOutButton {
+  display: flex;
+  margin-top: 80px;
+  /*height: 48px;*/
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 1000px;
+  background: var(--white-16, rgba(255, 255, 255, 0.16));
+  cursor: pointer;
+
+  color: #FFF;
+  text-align: center;
+  font-family: Rubik One;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 24.7px */
+  letter-spacing: -0.095px;
+  text-transform: uppercase;
+}
+
+.themeSuccessText {
+  align-self: stretch;
+  color: #FFF;
+  text-align: center;
+  font-family: SF Pro Rounded;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  /*line-height: 115%; /* 27.6px */
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+
+.doppleText {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: Hobeaux;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 115%; /* 27.6px */
+  text-transform: uppercase;
+}
+
+.doppleText2 {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: Hobeaux;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 115%; /* 27.6px */
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+
+.competitionText {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: Hobeaux;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 115%; /* 27.6px */
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+
+
+.doppleImage {
+  max-width: min(80vw, 400px);
+  max-height: min(45vh, 300px);
+  cursor: pointer;
+}
+
+.doppleImageOptions {
+  display: flex;
+  gap: 6px;
+  align-content: center;
+  justify-content: center;
+ /*align-items: center;
+  align-self: center;*/
+  flex-wrap: wrap;
+}
+
+.doppleImageOption {
+  max-width: min(80vw, 300px);
+  max-height: min(25vh, 300px);
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.space {
+  margin-top: 50px;
+}
+
+.changeOrSaveButton:active {
+  /*  Making button bigger on hover  */
+  transform: scale(1.05) perspective(1px)
+}
+
+.logOutButton:active {
+  /*  Making button bigger on hover  */
+  transform: scale(1.05) perspective(1px)
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .logOutButton:hover { transform: scale(1.05) perspective(1px); }
+  .changeOrSaveButton:hover { transform: scale(1.05) perspective(1px); }
+}
+
+

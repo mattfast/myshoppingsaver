@@ -1,0 +1,11 @@
+{
+  "gender": ["male", "female", "ambiguous"],
+  "color": ["red", "pink", "orange", "yellow", "green", "blue", "purple", "gold", "silver", "black", "gray", "white", "cream", "tan", "brown"],
+  "body_fit": ["Maternity", "Petite", "Plus size", "Tall"],
+  "material": ["Acrylic", "Canvas", "Cashmere", "Corduroy", "Cotton", "Cotton, Organic", "Cotton, Recycled", "Crochet", "Denim", "Elastane / Lycra/ Spandex", "Embellished", "Faux Fur", "Faux Leather", "Hemp", "Jersey", "Knitted", "Lace", "Leather", "Linen", "Lyocell", "Modal", "Nylon", "Polyester, Recycled", "Rayon", "Rubber", "Silk", "Suede", "Tweed", "Velvet", "Viscose", "Wool"],
+  "occasion": ["casual", "festival", "gifting", "going out", "outdoors", "party", "relaxation", "school", "ski", "special occasion", "summer", "holiday", "winter", "work", "workout"],
+  "condition": ["New", "Like New", "Used - Excellent", "Used - Good", "Used - Fair"],
+  "source": ["Vintage", "Preloved", "Reworked/ Upcycled", "Custom", "Handmade", "Deadstock", "Designer", "Repaired"],
+  "age": ["Maternity", "Petite", "Plus size", "Tall"],
+  "style": ["Streetwear", "Sportswear", "Loungewear", "Goth", "Retro", "Boho", "Western", "Indie", "Skater", "Rave", "Costume", "Cosplay", "Grunge", "Emo", "Minimalist", "Preppy", "Avant Garde", "Punk", "Glam", "Regency", "Casual", "Utility", "Futuristic", "Cottage", "Fairy", "Kidcore", "Y2K", "Biker", "Gorpcore", "Twee", "Coquette", "Whimsygoth"]
+}

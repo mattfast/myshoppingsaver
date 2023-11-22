@@ -1,0 +1,183 @@
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0, 0, 0, 0.4); /* Fallback color */
+  /*background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  justify-content: center;
+  align-items: center;
+}
+
+.comingSoon {
+  display: flex;
+  height: 24px;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  position: absolute;
+  top: -12px;
+  border-radius: 4px;
+  background: var(--turquoise-dark, #269AC9);
+}
+
+.comingSoonText {
+  color: var(--white, #FFF);
+  text-align: center;
+  /* overline/overline M */
+  font-family: Rubik;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 14.3px */
+  letter-spacing: 0.55px;
+  text-transform: uppercase;
+}
+
+.modalContent {
+  position: relative;
+  display: flex;
+  width: min(327px, 70vw);
+  padding: 40px 24px 32px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px 8px;
+  border-radius: 16px;
+  background: var(--black, #ffffff);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.loginFormText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.formTitle {
+  align-self: stretch;
+  color: var(--white, #FFF);
+  /* display/display S */
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%; /* 27.6px */
+  letter-spacing: -0.12px;
+}
+
+.formDescription {
+  align-self: stretch;
+  color: var(--white, #FFF);
+  /* text/text L */
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+  letter-spacing: -0.08px;
+  text-transform: none;
+
+}
+
+.formInput {
+  display: flex;
+  height: 21px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--white-16, rgba(255, 255, 255, 0.16));
+  outline: none;
+  border: none;
+
+  color: var(--white, #FFF);
+  /* text/text L */
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+  letter-spacing: -0.08px;
+}
+
+
+.errorMessage {
+  color: var(--red, #cc0000);
+  margin-top: -15px;
+  /* text/text L */
+  font-family: Figtree;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+  letter-spacing: -0.08px;
+  width: 100%;
+}
+
+.successMessage {
+  color: var(--red, #fff);
+  margin-top: -15px;
+  /* text/text L */
+  font-family: Figtree;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+  letter-spacing: -0.08px;
+  width: 100%;
+}
+
+.formButton {
+  display: flex;
+  height: 56px;
+  padding: 0px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 96px;
+  opacity: 0.3;
+  background: var(--white, #FFF);
+  box-shadow: 0px 0.20609px 0.92742px 0px rgba(0, 0, 0, 0.08), 0px 6px 27px 0px rgba(0, 0, 0, 0.27);
+  cursor: pointer;
+}
+
+.modalButtonText {
+  color: var(--off-black, #2A2826);
+  text-align: center;
+  /* label/label XL */
+  font-family: Figtree;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 24.7px */
+  letter-spacing: -0.095px;
+}
+
+.formButton:active {
+  /*  Making button bigger on hover  */
+  transform: scale(1.05) perspective(1px);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .formButton:hover { transform: scale(1.05) perspective(1px); }
+}
+  
+  

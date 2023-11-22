@@ -1,0 +1,13 @@
+
+.photoOptions {
+  display: flex;
+  justify-content: center;
+  width: min(560px, 80vw);
+  flex-wrap: wrap;
+}
+
+@media (max-width: 645px) {
+  .photoOptions {
+    gap: 32px;
+  }
+}
